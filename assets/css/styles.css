@@ -1,0 +1,385 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+html, body, .cover {
+    height: 100%;
+}
+body {
+    background-color: black;
+}
+section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+section div.contenido {
+    width: 963px;
+    margin: 0 auto;
+}
+.restaurar {
+    clear: both;
+}
+.separador {
+    margin-top: 30px !important;
+}
+/*----------------CABECERA---------------*/
+h1 {
+    font-size: 2.9rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+h2 {
+    font-size: 1.625rem;
+    margin-bottom: 2rem;
+}
+h3 {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+.cover {
+    background-image: url(../img/NetflixBackground.jpg);
+    background-position: bottom;
+}
+.cabecera {
+    background-color: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.8) 100%);
+}
+.separador__cabecera {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+nav {
+    margin: 0 3.5rem;
+    padding-top: 26px;
+}
+
+div.logo {
+    float: left;
+    margin-left: 159px;
+}
+div.login {
+    float: right;
+    color: #fff;
+    margin-right: 154px;
+    padding: 6px 0;
+    font-weight: bold;
+}
+div.login span {
+    padding: 7px 17px;
+    background-color: #E50914;
+    border-radius: 5px;
+    transition: 1s;
+    cursor: pointer;
+}
+div.login span:hover {
+    background-color: #C11119;
+}
+.cabecera button {
+    float: right;
+}
+.presentacion {
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 65px;
+}
+.presentacion input {
+    height: 55px;
+    width: 379px;
+    background-color: #131516;
+    border: 1px solid #606160;
+    outline: none;
+    border-radius: 2px 0 0 2px;
+    margin-bottom: 3px;
+    padding-left: 20px;
+}
+.presentacion input::placeholder {
+    color: #fff;
+    font-size: 1.25em;
+}
+.presentacion__btn {
+    padding: 20px 30px; 
+    background-color: #E50914;
+    font-weight: bold;
+    font-size: 1.5;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 1s;
+}
+.presentacion__btn:hover {
+    background-color: #C11119;
+}
+/*----------------CABECERA.--------------*/
+/*-------------------TV------------------*/
+.izquierda {
+    float: left;
+}
+.derecha {
+    float: right;
+}
+.txt__flotante {
+    width: 53%;
+    display: grid;
+    place-content: center;
+}
+.multimedia__flotante {
+    width: 47%
+}
+.tv__contenido {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tv,
+.descarga,
+.disfruta,
+.niños {
+    padding: 100px 0;
+}
+.contenido img {
+    width: 100%;
+    height: 303px;
+    border: none;
+    position: relative;
+    z-index: 2;
+}
+.contenido h2, .preguntas h2 {
+    font-weight: bold;
+    font-size: 50px;
+}
+.contenido p, .txt__flotante p {
+    font-size: 25px;
+    font-weight: 200;
+}
+.separador {
+    background-color: #232323;
+    height: 8px;
+    width: 100%;
+}
+.tv video {
+    position: absolute;
+    transform: translate(-393px, 60px);
+    width: 350px;
+    z-index: 1;
+}
+/*-------------------TV.-----------------*/
+/*----------------DESCARGA---------------*/
+.tarjeta {
+    position: relative;
+    transform: translate(130px, -50px);
+    margin: auto;
+}
+.tarjeta__interna, .portada {
+    display: flex;
+    align-items: center;
+}
+.tarjeta__interna {
+    transform: translate(-60px, 5px);
+    width: 278px;
+    margin: auto;
+    padding: 10px;
+    border: 2px solid #606160;
+    border-radius: 15px;
+    position: relative;
+    background-color: #000;
+    height: 80px;
+}
+.txt__flotante h2 {
+    font-weight: bold;
+    font-size: 50px;
+}
+.texto__portada {
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.texto__portada p:nth-child(2) {
+    font-size: 14px;
+    color: #0071EB;
+    font-weight: 100;
+    text-align: center
+}
+/*--------------DESCARGA.-------------*/
+/*--------------DISFRUTA--------------*/
+.niños {
+    width: 963px;
+    margin: 0 auto;
+}
+.disfruta video {
+    position: absolute;
+    transform: translate(-366px, 30px);
+    width: 275px;
+    z-index: 1;
+}
+/*---------------DISFRUTA.--------------*/
+/*-----------------NIÑOS----------------*/
+.niños img {
+    width: 452px;
+    height: 352px;
+}
+/*----------------NIÑOS.----------------*/
+/*--------------PREGUNTAS---------------*/
+.preguntas {
+    margin: 0 auto;
+    width: 963px;
+}
+.preguntas h2 {
+    text-align: center;
+}
+.preguntas__contenido {
+    width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+.preguntas summary {
+    text-align: left;
+    padding: 15px;
+    padding-left: 20px;
+    margin: 5px 0;
+    font-size: 22px;
+    font-weight: 500;
+    user-select: none;
+    position: relative;
+}
+summary::marker {
+    content: '';
+    color: #fff;
+}
+summary::before {
+    content: '+';
+    color: #fff;
+    position: absolute;
+    right: 0;
+    font-size: 30px;
+}
+details[open] summary::before {
+    content: 'x';
+    font-size: 30px;
+    font-weight: 100;
+}
+.line {
+    border-bottom: 1px solid black;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+}
+.preguntas details {
+    background-color: #2D2D2D;
+    width: auto;
+    margin: 6px auto;
+    text-align: left;
+    font-size: 22px;
+    padding: 15px;
+    padding-left: 20px;
+}
+.preguntas details:not(summary):hover {
+    cursor: pointer;
+    background-color: #414141;
+}
+.preguntas summary::marker::before {
+    content: '';
+}
+.preguntas input {
+    height: 55px;
+    width: 379px;
+    background-color: #131516;
+    border: 1px solid #606160;
+    outline: none;
+    border-radius: 2px 0 0 2px;
+    margin-bottom: 3px;
+    padding-left: 20px;
+    margin: auto;
+}
+.preguntas input::placeholder {
+    color: #fff;
+    font-size: 1.25em;
+}
+.preguntas__btn {
+    padding: 20px 30px; 
+    background-color: #E50914;
+    font-weight: bold;
+    font-size: 1.5;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 1s;
+}
+.preguntas__btn:hover {
+    background-color: #C11119;
+}
+.preguntas h3 {
+    margin-top: 50px !important;
+    font-weight: 100;
+}
+/*--------------PREGUNTAS.-------------*/
+/*--------------FOOTER--------------*/
+.footer__titulo {
+    display: block;
+    margin-bottom: 20px;
+}
+.footer__contenido {
+    width: 963px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer__contenido p {
+    text-decoration: underline;
+    color: #B3B3B3;
+    padding-bottom: 12px;
+}
+.footer__contenido button {
+    background-color: #0F0F0F;
+    padding: 5px 15px;
+    border-radius: 4px;
+    outline: none;
+    display: flex;
+    align-items: center;
+    border: 1px solid #606160;
+    margin-top: 15px;
+    
+}
+.footer__contenido button > span {
+    padding: 0 5px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: auto;
+}
+.footer__contenido .txt__netflix {
+    text-decoration: none;
+    font-size: 15px;
+    margin-top: 20px;
+}
+/*-----------------ME.------------------*/
+.footer__me {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #232323;
+    position: sticky;
+    z-index: 5;
+    bottom: 50px;
+    float: right;
+    right: 20px;
+    border-radius: 10px;
+    width: 9%;
+    height: auto;
+    border: 2px solid #fff;
+}
+.footer__me p {
+    font-weight: bold;
+}
+.footer__me small {
+    text-decoration: underline;
+}
+/*-----------------ME.-----------------*/
+/*--------------PREGUNTAS.-------------*/
